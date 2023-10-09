@@ -5,8 +5,8 @@ import {Link} from 'react-router-dom'
 import {AiOutlineEdit} from 'react-icons/ai'
 import {BsInfoCircle} from 'react-icons/bs'
 import {MdOutlineAddBox,MdOutlineDelete} from 'react-icons/md'
-import ProductsTable from '../components/home/productsTable'
-import ProductsCard from '../components/home/productsCard'
+import ProductsTable from '../components/home/productsTable.jsx'
+import ProductsCard from '../components/home/productsCard.jsx'
 
 
 

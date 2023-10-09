@@ -15,7 +15,7 @@ const ShowProduct = () => {
         setLoading(true)
         axios.get(`${base_url}/products/${id}`)
         .then((response)=>{
-            console.log(response.data.product);
+            // console.log(response.data.product);
             setProduct(response.data.product);
             setLoading(false)
             
