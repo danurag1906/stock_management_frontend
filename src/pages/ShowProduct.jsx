@@ -46,14 +46,6 @@ const ShowProduct = () => {
                         <div className='my-4'>
                             <div className='my-4'>
                                 <span className='text-xl mr-4 text-gray-500' >
-                                    Id
-                                </span>
-                                <span>
-                                    {product._id}
-                                </span>
-                            </div>
-                            <div className='my-4'>
-                                <span className='text-xl mr-4 text-gray-500' >
                                     Name
                                 </span>
                                 <span>
