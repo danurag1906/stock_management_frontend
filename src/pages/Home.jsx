@@ -20,6 +20,7 @@ const Home = () => {
 
     useEffect(()=>{
         setLoading(true)
+        console.log(base_url);
         axios.get(`${base_url}/products`)
         .then((response)=>{
             setProducts(response.data.data)
